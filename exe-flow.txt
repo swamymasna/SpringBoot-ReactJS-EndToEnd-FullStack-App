@@ -1,0 +1,35 @@
+POST : http://localhost:8081/api/employees
+-------------------------------------------
+{
+        "firstName": "Swamy",
+        "lastName": "Masna",
+        "salary": 99000.0,
+        "email": "swamymasna55@gmail.com",
+        "gender": "Male",
+        "prefLocation": "Pune",
+        "profile": "Applying For Java FullStack Developer",
+        "terms": true,
+        "languages": [
+            "ReactJS",
+            "SpringBoot"
+        ]
+}
+
+____________________________________________
+
+
+Add Locations Data in the Location Table
+
+1	Hyderabad
+2 	Pune
+3	Bangalore
+4 	Mumbai
+5	Chennai
+
+
+
+
+
+
+
+

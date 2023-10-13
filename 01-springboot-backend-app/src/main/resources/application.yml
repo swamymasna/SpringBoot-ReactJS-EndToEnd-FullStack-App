@@ -1,0 +1,58 @@
+#server properties
+server:
+  port: 8081
+
+#datasource properties
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ems_db
+    username: root
+    password: root
+    
+#jpa properties    
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
+    
+#actuator properties    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+#open api properties(swagger-ui) 
+springdoc:
+  api-docs:
+    path: /api-doc   
+
+#ems-app-properties
+ems-app:
+  messages:
+    email_sent: "Employee Successfully Registered"  
+    employee_mail_body_template: "EMPLOYEE_MAIL_BODY_TEMPLATE.txt" 
+    save_employee_exception: "Failed To Save Employee into the Database..??"
+    fetch_all_locations_exception: "Failed To Fetch Locations From the Database..??"
+    fetch_all_employees_exception: "Failed To Fetch Employees From the Database..??"
+    employee_not_found_exception: "Employee Not Found With Id : %s"
+    update_employee_exception: "Failed To Update Employee into the Database..??"
+    employee_deletion_succeeded: "Employee is Deleted Successfully With Id : "
+    failed_to_delete_employee: "Employee is Not Deleted..!"
+    delete_employee_exception: "Failed To Delete Employee From the Database..??"
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,21 @@
+
+Welcome : {EMAIL},
+
+You Have Registered Successfully in KES Application..!
+  > Welcome to KES Application
+
+Your Registered Details Are : 
+
+	Emp-Id    : {EMP-ID}, 
+	FirstName : {FNAME}, 
+	LastName  : {LNAME}, 
+	Salary    : {EMP-SAL}, 
+	Email-Id  : {EMAIL}, 
+	Gender    : {GENDER}, 
+	Location  : {LOCATION}, 
+	Profile   : {PROFILE}, 
+	Acc Terms :  {TERMS}, 
+	Languages : {LANGUAGES}
+	
+Thanks & Regards,
+CodeBySwamy!	

@@ -1,0 +1,19 @@
+POST : http://localhost:8081/api/employees
+__________________________________________
+
+{
+    "employeeId": 1,
+    "firstName": "Swamy",
+    "lastName": "Masna",
+    "salary": 99000.0,
+    "email": "swamy@gmail.com",
+    "gender": "Male",
+    "prefLocation": "Pune",
+    "profile": "Applying For Java FullStack Developer",
+    "terms": true,
+    "languages": [
+        "ReactJS",
+        "SpringBoot"
+    ]
+}
+__________________________________________
